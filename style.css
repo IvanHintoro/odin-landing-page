@@ -109,7 +109,24 @@ li a {
 }
 
 .quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #E5E7EB;
+    height: 350px;
+    padding: 0px 320px;
+}
+
+.quote .text p{
+    font-size: 32px;
+    color: #1F2937;
+}
+
+.quote .quoted {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    color: #1F2937;
 }
 
 footer {

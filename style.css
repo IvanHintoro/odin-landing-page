@@ -162,6 +162,9 @@ li a {
 }
 
 footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
     background-color: #1F2937;
 }
 
